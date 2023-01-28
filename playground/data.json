@@ -1,0 +1,14 @@
+{
+    "gopro": {
+        "full name": "OCTOMASK - Dive Mask w/Mount for All GoPro Hero Cameras for Scuba Diving, Snorkeling, Freediving",
+        "price": 79.99,
+        "link": "https://www.amazon.com/Hero5-Session-Diving-Snorkeling-compatible/dp/B00B57PHTQ/?_encoding=UTF8&pd_rd_w=IchO5&content-id=amzn1.sym.18be86ac-b16e-400a-b42f-43f216645498&pf_rd_p=18be86ac-b16e-400a-b42f-43f216645498&pf_rd_r=P8FAFKYFT7AKDJES3D12&pd_rd_wg=rJ1yg&pd_rd_r=fda94a66-370a-4350-8807-13ba137a7a23&ref_=pd_gw_bmx_gp_q94k3f8o&th=1",
+        "priority": 4
+    },
+    "3D printer": {
+        "full name": "Flashforge 3D Printer Adventurer 3, Auto Leveling FDM Printing Machine, Enclosure Chamber 150X150X150MM.",
+        "price": 319.0,
+        "link": "https://www.walmart.com/ip/Flashforge-3D-Printer-Adventurer-3-Auto-Leveling-FDM-Printing-Machine-Enclosure-Chamber-150X150X150MM/926206083",
+        "priority": 2
+    }
+}
