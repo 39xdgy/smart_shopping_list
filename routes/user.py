@@ -29,6 +29,20 @@ async def create_user(user: User):
     conn.shopping_list.user.insert_one(dict_user)
     return usersEntity(conn.shopping_list.user.find())
 
+@user.post('/login')
+async def login_user(user: User):
+    user = dict(user)
+    user_db = userEntity(conn.shopping_list.user.find_one({"name": user["name"]}))
+    if(user_db["password"] == user["password"]):
+        print("confirm")
+        return {
+            "status": "successful",
+            "list_id": user_db["list_id"]
+        }
+    return {
+        "status": "Error"
+    }
+
 @user.put('/{id}')
 async def update_user(id, user: User):
     conn.shopping_list.user.find_one_and_update({"_id": ObjectId(id)}, {
